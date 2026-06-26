@@ -39,7 +39,7 @@ function Work() {
             <div className='work-grid'>
                 {projetos.map((projeto) => (
                     <div key={projeto.id} className='work-item'>
-                        <div className='word-item-imagem'>
+                        <div className='work-item-imagem'>
                             <img src={projeto.imagem} alt={projeto.titulo}/>
                         </div>
                         <div className='work-item-info'>
