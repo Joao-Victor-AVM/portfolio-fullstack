@@ -8,13 +8,13 @@ function App() {
   return (
     <BrowserRouter>
       <div className='App'>
-        <Navbar/>
+        <Navbar />
         <main className='conteudo-principal'>
-          <Route>
-            <Route path='/' element={<Work/>}/>
-            <Route path='/work' element={<Work/>}/>
-            <Route path='/contact' element={<Contact/>}/>
-          </Route>
+          <Routes>
+            <Route path='/' element={<Work />} />
+            <Route path='/work' element={<Work />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes>
         </main>
       </div>
     </BrowserRouter>

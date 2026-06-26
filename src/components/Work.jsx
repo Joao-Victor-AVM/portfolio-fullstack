@@ -1,25 +1,30 @@
 import './Work.css';
 
+import img1 from "/images/UserNET.jpg";
+import img2 from "/images/Framework Analgesia.png";
+import img3 from "/images/Backend Minimal-API.jpg";
+import img4 from "/images/GET-Users.png";
+
 const projetos = [
     {
         id: 1,
         titulo: "UsuarioNET", 
-        imagem: "arar"
+        imagem: img1
     },
     {
         id: 2,
         titulo: "Framework Analgésia",
-        imagem: "arar"
+        imagem: img2
     },
     {
         id: 3,
         titulo: "Minimal-API",
-        imagem: "arar"
+        imagem: img3
     },
     {
         id: 4,
         titulo: "GET-Users",
-        imagem: "arar"
+        imagem: img4
     }
 ];
 
