@@ -7,24 +7,24 @@ import img4 from "/images/GET-Users.png";
 
 const projetos = [
     {
-        id: 1,
+        id: 4,
         titulo: "UsuarioNET", 
-        imagem: img1
-    },
-    {
-        id: 2,
-        titulo: "Framework Analgésia",
-        imagem: img2
+        imagem: img4
     },
     {
         id: 3,
-        titulo: "Minimal-API",
+        titulo: "Framework Analgésia",
         imagem: img3
     },
     {
-        id: 4,
+        id: 2,
+        titulo: "Minimal-API",
+        imagem: img2
+    },
+    {
+        id: 1,
         titulo: "GET-Users",
-        imagem: img4
+        imagem: img1
     }
 ];
 
