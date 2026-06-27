@@ -1,4 +1,5 @@
 import './Work.css';
+import { Link } from 'react-router-dom';
 
 import img1 from "/images/UserNET.jpg";
 import img2 from "/images/Framework Analgesia.png";
@@ -38,14 +39,17 @@ function Work() {
         
             <div className='work-grid'>
                 {projetos.map((projeto) => (
-                    <div key={projeto.id} className='work-item'>
-                        <div className='work-item-imagem'>
-                            <img src={projeto.imagem} alt={projeto.titulo}/>
+                    <Link to={'/work/${projeto.id}'} key={projeto.id} className='work-item-link'>
+                        <div className='work-itme'>
+                            <div className='work-item-imagem'>
+                                <img src={projeto.imagem} alt={projeto.titulo}/>
+                            </div>
+
+                            <div className='work-item-info'>
+                                <h3>{projeto.titulo}</h3>
+                            </div>
                         </div>
-                        <div className='work-item-info'>
-                            <h3>{projeto.titulo}</h3>
-                        </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </div>

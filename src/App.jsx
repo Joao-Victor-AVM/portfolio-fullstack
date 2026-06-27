@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import ProjectDetail from './components/ProjectDetail';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Route path='/' element={<Work />} />
             <Route path='/work' element={<Work />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path="/work/:id" element={<ProjectDetail />} />
           </Routes>
         </main>
       </div>
