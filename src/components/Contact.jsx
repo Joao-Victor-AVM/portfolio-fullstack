@@ -16,7 +16,7 @@ function Contact() {
                     <p><strong>Localização</strong> Recife-PE </p>
 
                     <div className='contact-social'>
-                        <a href='#'>Linkedin</a>
+                        <a href='https://www.linkedin.com/in/joao-victor-almeida-key/'>Linkedin</a>
                     </div>
                 </div>
             </div>

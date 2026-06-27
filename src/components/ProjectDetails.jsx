@@ -75,7 +75,7 @@ function ProjectDetails() {
                     <h3>Capturas</h3>
                     <div className="galeria-grid">
                         {projeto.capturas.map((captura, index) => (
-                            <div key={index} className="captura-item">
+                            <div key={index} className="captura-item galeria-item">
                                 <img src={captura} alt={`${projeto.titulo} captura ${index + 1}`} />
                             </div>
                         ))}

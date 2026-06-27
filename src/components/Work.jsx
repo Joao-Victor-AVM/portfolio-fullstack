@@ -38,7 +38,7 @@ function Work() {
             </header>
         
             <div className='work-grid'>
-                {projetos.map((projeto) => (
+                {[...projetos].reverse().map((projeto) => (
                     <Link to={`/work/${projeto.id}`} key={projeto.id} className='work-item-link'>
                         <div className='work-itme'>
                             <div className='work-item-imagem'>
