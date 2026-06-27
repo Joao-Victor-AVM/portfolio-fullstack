@@ -10,22 +10,22 @@ const projetos = [
     {
         id: 4,
         titulo: "UsuarioNET", 
-        imagem: img4
+        imagem: img1
     },
     {
         id: 3,
         titulo: "Framework Analgésia",
-        imagem: img3
+        imagem: img2
     },
     {
         id: 2,
         titulo: "Minimal-API",
-        imagem: img2
+        imagem: img3
     },
     {
         id: 1,
         titulo: "GET-Users",
-        imagem: img1
+        imagem: img4
     }
 ];
 
@@ -39,7 +39,7 @@ function Work() {
         
             <div className='work-grid'>
                 {projetos.map((projeto) => (
-                    <Link to={'/work/${projeto.id}'} key={projeto.id} className='work-item-link'>
+                    <Link to={`/work/${projeto.id}`} key={projeto.id} className='work-item-link'>
                         <div className='work-itme'>
                             <div className='work-item-imagem'>
                                 <img src={projeto.imagem} alt={projeto.titulo}/>
